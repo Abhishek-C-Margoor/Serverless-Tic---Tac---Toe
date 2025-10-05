@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tic Tac Toe - Two Player</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>🎮 Tic Tac Toe - Two Player Mode</h1>
+
+  <div id="playerInputs">
+    <input type="text" id="playerX" placeholder="Player X name" />
+    <input type="text" id="playerO" placeholder="Player O name" />
+    <button id="startBtn">Start Game</button>
+  </div>
+
+  <div id="gameArea" style="display:none;">
+    <p id="turnIndicator"></p>
+    <div id="gameBoard" class="board"></div>
+    <p id="status"></p>
+    <button id="resetBtn">Restart Game</button>
+    <button id="backBtn">Back to Setup</button> 
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
